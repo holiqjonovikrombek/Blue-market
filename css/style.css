@@ -1,0 +1,189 @@
+@import url(./fonts.css);
+*{
+  box-sizing: border-box;
+  font-family: 'Rubik';
+  font-weight: 400;
+}
+body{
+  background: #F1F1F1;
+}
+.left-navbar{
+  padding: 30px 15px;
+  min-height: 100vh;
+  width: 100px;
+  background: white;
+  transition: 0.2s;
+  position: fixed;
+}
+.left-navbar:hover{
+  width: 234px;
+}
+.navbar-link{
+  font-size: 18px;
+  color: #939393;
+}
+.navbar-link:hover{
+  color: #2A86B1;
+}
+.left-navbar__ava img{
+  border-radius: 50%;
+}
+/* header */
+.header__content{
+  min-height: 500px;
+  background: white;
+}
+.header-text{
+  max-width: 332px;
+  margin-left: 62px;
+}
+.header-text h1{
+  font-size: 50px;
+  color: #464748;
+}
+/* service */
+.service-card{
+  height: 338px;
+  padding-top: 32px;
+  padding-bottom: 26px;
+  color: #2A86B1;
+  border: 15px solid #F1F1F1;
+}
+/* news */
+.news-text p{
+  padding: 15px;
+  text-align: justify;
+  color: #545454;
+  font-size: 16px;
+  line-height: normal;
+}
+.news-text p:nth-of-type(1), .news-text p:nth-of-type(3){
+  height: 124px;
+  overflow: hidden;
+}
+.news-text p:nth-of-type(2){
+  height: 144px;
+  overflow: hidden;
+}
+.news-card{
+  max-width: 255px;
+}
+.news-card__text h6{
+  font-size: 17px;
+  color: #323232;
+  line-height: 94.5%; 
+}
+.news-card__text p{
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 94.5%;
+}
+.footer{
+  background: #3FA5D5;
+  width: 98%;
+height: 140px;
+flex-shrink: 0;
+margin: 10px 0 10px 20px;
+}
+.footer h1{
+  max-width: 332px;
+height: 60px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Rubik;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.p1{
+  max-width: 164px;
+  height: 21px;
+  flex-shrink: 0;
+  color: #FFF;
+font-family: Rubik;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 300px;
+}
+.p2{
+  max-width: 201px;
+height: 19px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px){
+  .left-navbar{
+    width: 100%;
+    min-height: 10vh;
+  }
+  .left-navbar:hover{
+    width: 100%;
+  }
+  .left-navbar__logo img{
+    width: 40px;
+  }
+}
+@media (max-width: 576px){
+  .header-text{
+    margin: 0 auto;
+  }
+}
+@media (max-width: 576px){
+  .header-text{
+    margin: 0 auto;
+  }
+}
+@media (max-width:575px){
+  .salom{
+  background: #3FA5D5;
+  width: 575px;
+    
+  }
+  .p1 , .p2{
+    margin-right: 140px;
+  }
+  .alik{
+    margin-top: -350xp;
+  }
+}
